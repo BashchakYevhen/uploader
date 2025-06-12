@@ -46,6 +46,12 @@ npm start
 
 4. The backend server will run at [http://localhost:8080](http://localhost:8080) (or your configured port).
 
+ENV variables:
+  BE: 
+    - DATABASE
+    - PORT 
+  FE: 
+    - REACT_APP_BASE_URL
 ---
 
 **Note:** Make sure both servers are running simultaneously for full functionality.
