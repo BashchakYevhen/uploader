@@ -5,7 +5,7 @@ const fileSchema = new Schema({
     type: String,
     required: true,
   },
-  // change type to string if your uploading just one image
+ 
   url: {
     type: Array,
     required: true,
